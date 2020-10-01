@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 
 def Main( url_1 ):
     i = 1
-
     def Crawl(url_l, i):
 
         url = url_l
