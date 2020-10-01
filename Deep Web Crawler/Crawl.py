@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 def Main( url_1 ):
     i = 1
     def Crawl(url_l, i):
-
         url = url_l
         source_code = requests.get(url)
         soup = BeautifulSoup(source_code.text , "lxml")
